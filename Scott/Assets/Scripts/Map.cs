@@ -7,24 +7,20 @@ using UnityEngine.UI;
 public class Map : MonoBehaviour
 {
     [SerializeField] GameObject map;
-    private bool isVisible;
 
     public void Start()
     {
         map.SetActive(false);
-        isVisible = false;
     }
 
     public void MapOpen()
     {
         map.SetActive(true);
-        isVisible = true;
     }
 
     public void MapClose()
     {
         map.SetActive(false);
-        isVisible = false;
     }
 
     public void AngerHouse()
