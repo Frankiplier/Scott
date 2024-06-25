@@ -714,7 +714,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6911359878219249042}
-  - component: {fileID: 2970927309190093144}
   - component: {fileID: 3063744364956918307}
   m_Layer: 5
   m_Name: DialogueBox
@@ -746,14 +745,6 @@ RectTransform:
   m_AnchoredPosition: {x: 103, y: -292}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &2970927309190093144
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984806055442921752}
-  m_CullTransparentMesh: 1
 --- !u!95 &3063744364956918307
 Animator:
   serializedVersion: 5
