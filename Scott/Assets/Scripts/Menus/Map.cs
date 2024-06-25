@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Map : MonoBehaviour
 {
     [SerializeField] GameObject map;
+    [SerializeField] Animator transition;
 
     public void Start()
     {
@@ -25,21 +26,53 @@ public class Map : MonoBehaviour
 
     public void Garage()
     {
-        SceneManager.LoadSceneAsync(2);
+        StartCoroutine(GarageLevel());
     }
 
     public void AngerHouse()
     {
-        SceneManager.LoadSceneAsync(3);
+        StartCoroutine(AngerLevel());
     }
 
     public void EnvyHouse()
     {
-        SceneManager.LoadSceneAsync(4);
+        StartCoroutine(EnvyLevel());
     }
 
     public void SadHouse()
     {
+        StartCoroutine(SadLevel());
+    }
+
+    IEnumerator GarageLevel()
+    {
+        transition.SetTrigger("Transition Level End");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadSceneAsync(2);
+        transition.SetTrigger("Transition Level Start");
+    }
+
+      IEnumerator AngerLevel()
+    {
+        transition.SetTrigger("Transition Level End");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadSceneAsync(3);
+        transition.SetTrigger("Transition Level Start");
+    }
+
+      IEnumerator EnvyLevel()
+    {
+        transition.SetTrigger("Transition Level End");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadSceneAsync(4);
+        transition.SetTrigger("Transition Level Start");
+    }
+
+      IEnumerator SadLevel()
+    {
+        transition.SetTrigger("Transition Level End");
+        yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(5);
+        transition.SetTrigger("Transition Level Start");
     }
 }
