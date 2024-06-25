@@ -123,6 +123,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &203830260 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6100265509879585533, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 376057210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &214360701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7100831392922435435, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 376057210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &215774239 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4778271801758499873, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 376057210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &321065774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -677,6 +704,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1491636215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4503935758992071413, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 376057210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1722439847
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,19 +895,19 @@ PrefabInstance:
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 203830260}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogueArea
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1491636215}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: characterIcon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 215774239}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: characterName
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 214360701}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -883,5 +921,5 @@ SceneRoots:
   - {fileID: 1038159259}
   - {fileID: 4467725783917395213}
   - {fileID: 4574907396884211687}
-  - {fileID: 1722439850}
   - {fileID: 321065774}
+  - {fileID: 1722439850}
