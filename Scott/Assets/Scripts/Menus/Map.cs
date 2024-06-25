@@ -46,33 +46,33 @@ public class Map : MonoBehaviour
 
     IEnumerator GarageLevel()
     {
-        transition.SetTrigger("Transition Level End");
-        yield return new WaitForSeconds(1);
+        transition.Play("Transition Level End");
         SceneManager.LoadSceneAsync(2);
+        yield return new WaitForSeconds(3);
         transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator AngerLevel()
     {
-        transition.SetTrigger("Transition Level End");
-        yield return new WaitForSeconds(1);
+        transition.Play("Transition Level End");
         SceneManager.LoadSceneAsync(3);
+        yield return new WaitForSeconds(3);
         transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator EnvyLevel()
     {
-        transition.SetTrigger("Transition Level End");
-        yield return new WaitForSeconds(1);
+        transition.Play("Transition Level End");
         SceneManager.LoadSceneAsync(4);
+        yield return new WaitForSeconds(3);
         transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator SadLevel()
     {
-        transition.SetTrigger("Transition Level End");
-        yield return new WaitForSeconds(1);
+        transition.Play("Transition Level End");
         SceneManager.LoadSceneAsync(5);
+        yield return new WaitForSeconds(3);
         transition.SetTrigger("Transition Level Start");
     }
 }
