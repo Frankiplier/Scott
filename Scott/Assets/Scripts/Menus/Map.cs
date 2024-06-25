@@ -23,23 +23,23 @@ public class Map : MonoBehaviour
         map.SetActive(false);
     }
 
-    public void AngerHouse()
-    {
-        SceneManager.LoadSceneAsync(0);
-    }
-
-    public void EnvyHouse()
-    {
-        SceneManager.LoadSceneAsync(1);
-    }
-
-     public void Garage()
+    public void Garage()
     {
         SceneManager.LoadSceneAsync(2);
     }
 
-    public void SadHouse()
+    public void AngerHouse()
     {
         SceneManager.LoadSceneAsync(3);
+    }
+
+    public void EnvyHouse()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+
+    public void SadHouse()
+    {
+        SceneManager.LoadSceneAsync(5);
     }
 }
