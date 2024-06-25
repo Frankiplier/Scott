@@ -584,6 +584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 936155109582261290, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1083921721878164218, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -685,6 +689,6 @@ SceneRoots:
   - {fileID: 1461687028}
   - {fileID: 1038159259}
   - {fileID: 4467725783917395213}
+  - {fileID: 4574907396884211687}
   - {fileID: 8631396982269878575}
   - {fileID: 1722439850}
-  - {fileID: 4574907396884211687}
