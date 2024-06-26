@@ -1273,7 +1273,7 @@ MonoBehaviour:
   theMusic: {fileID: 73626786}
   startPlaying: 0
   beatScroller: {fileID: 366729619}
-  word: {fileID: 0}
+  word: {fileID: 228900948}
 --- !u!4 &687054869
 Transform:
   m_ObjectHideFlags: 0
