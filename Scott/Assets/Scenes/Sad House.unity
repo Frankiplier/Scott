@@ -1680,7 +1680,7 @@ PrefabInstance:
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].character.icon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].character.name
       value: Me
