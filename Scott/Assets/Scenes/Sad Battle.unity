@@ -4230,7 +4230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 949c5ac002986c047b1c54cbac40ad05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 4
+  fadeDuration: 6
 --- !u!95 &1280144488
 Animator:
   serializedVersion: 5
