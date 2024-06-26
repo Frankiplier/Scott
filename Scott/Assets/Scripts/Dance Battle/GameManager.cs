@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     {
         if (!startPlaying)
         {
-            if (Input.anyKeyDown)
+            if (Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape) && !Input.GetKeyUp(KeyCode.Mouse0))
             {
                 word.SetActive(false);
 
