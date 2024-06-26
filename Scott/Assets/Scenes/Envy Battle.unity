@@ -3722,8 +3722,8 @@ Transform:
   m_GameObject: {fileID: 1646615856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.84, y: 0.05, z: 0.034020197}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalPosition: {x: 5.75, y: -0.25, z: 0.034020197}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4007,7 +4007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505476735253f604f9fed2eabc34d304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Envy House
+  sceneName: Garage
   seconds: 18
   hasDanced: 0
 --- !u!82 &1722323096
