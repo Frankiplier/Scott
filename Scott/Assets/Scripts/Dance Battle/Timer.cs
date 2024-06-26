@@ -11,7 +11,15 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(EndDance());
+        
+    }
+
+    void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            StartCoroutine(EndDance());
+        }
     }
 
     private IEnumerator EndDance()
