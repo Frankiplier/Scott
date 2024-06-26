@@ -676,10 +676,10 @@ PrefabInstance:
       addedObject: {fileID: 57544556}
     - targetCorrespondingSourceObject: {fileID: 5514716675075118750, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1996506040}
+      addedObject: {fileID: 825478612}
     - targetCorrespondingSourceObject: {fileID: 5514716675075118750, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 825478612}
+      addedObject: {fileID: 1996506040}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 730ba581233789b44bc5335658d592ff, type: 3}
 --- !u!224 &376057211 stripped
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 825478614}
   - component: {fileID: 825478613}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
