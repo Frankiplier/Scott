@@ -992,8 +992,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 215.44736, y: 112.24669, z: 294.87225, w: 86.20703}
+  m_margin: {x: 215.44736, y: 112.24669, z: 289.18976, w: 86.20703}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2013,7 +2013,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
@@ -2029,7 +2029,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
@@ -2045,7 +2045,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].character.icon
@@ -2053,7 +2053,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].character.icon
@@ -2061,7 +2061,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[7].character.icon
@@ -2077,7 +2077,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].character.icon
@@ -2085,7 +2085,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].character.icon
@@ -2133,7 +2133,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[15].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[16].character.icon
@@ -2149,7 +2149,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[17].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[18].character.icon
