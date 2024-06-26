@@ -8,10 +8,12 @@ public class GameManager : MonoBehaviour
     public bool startPlaying;
     public BeatScroller beatScroller;
     public static GameManager instance;
+    public GameObject word;
 
     void Start()
     {
          instance = this;
+         word.SetActive(true);
     }
 
     void Update()
@@ -20,6 +22,8 @@ public class GameManager : MonoBehaviour
         {
             if (Input.anyKeyDown)
             {
+                word.SetActive(false);
+
                 startPlaying = true;
                 beatScroller.hasStarted = true;
 

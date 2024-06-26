@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
  
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
+    [SerializeField] Animator transition;
  
     public Image characterIcon;
     public TextMeshProUGUI characterName;
@@ -76,6 +78,7 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         animator.Play("hide");
+        SceneManager.LoadSceneAsync(8);
     }
 }
 
