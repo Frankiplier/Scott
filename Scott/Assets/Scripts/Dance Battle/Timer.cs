@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] Object scene;
+    public string sceneName;
     public float seconds;
     public bool hasDanced = false;
 
@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
     private IEnumerator EndDance()
     {
         yield return new WaitForSeconds(seconds);
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(sceneName);
         hasDanced = true;
     }
 }
