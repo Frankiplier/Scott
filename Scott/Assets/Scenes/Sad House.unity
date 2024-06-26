@@ -1309,6 +1309,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7924596799185795307, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1490.191
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924596799185795307, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 379.28
+      objectReference: {fileID: 0}
     - target: {fileID: 7984806055442921752, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_Name
       value: DialogueBox

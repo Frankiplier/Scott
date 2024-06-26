@@ -1028,23 +1028,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.w
-      value: 94.76343
+      value: 92.40623
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.x
-      value: 244.71014
+      value: 264.60052
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.y
-      value: 91.75779
+      value: 90.8149
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.z
-      value: 256.19034
+      value: 279.14053
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontAsset
@@ -1064,32 +1064,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontSizeBase
-      value: 30
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -7198505971967600720, guid: 089f352d75d4ba740921cb43b4b71efd, type: 2}
     - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064861855330420661, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_fontSize
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.w
-      value: 74.70937
+      value: 86.56603
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.x
-      value: 225.20993
+      value: 281.76447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_margin.y
+      value: 101.16316
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.z
-      value: -0.818573
+      value: 45.317535
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 089f352d75d4ba740921cb43b4b71efd, type: 2}
+    - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 38
+      objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_sharedMaterial
       value: 
@@ -1224,15 +1240,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.w
-      value: 86.20703
+      value: 81.61694
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.x
-      value: 215.44736
+      value: 217.30548
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.y
@@ -1240,7 +1256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.z
-      value: 294.87225
+      value: 284.75897
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontAsset
@@ -1260,7 +1276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_fontSizeBase
-      value: 18
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8918461958845362395, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_sharedMaterial
@@ -1456,7 +1472,7 @@ PrefabInstance:
       objectReference: {fileID: 155459103}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: typingSpeed
-      value: 0.01
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogueArea
@@ -1480,37 +1496,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
-      value: 'Ugh.. look who came to see me again! Mr. Cool Guy.
-
-        What do
-        you need this time?'
+      value: Ugh... look who came to see me again! Mr. Cool Guy. What do you need
+        this time?
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
-      value: Hi Gelosia.. Have you seen my speakers anywhere?
+      value: Hi, Gelosia... Have you seen my speakers anywhere?
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].line
-      value: 'All of them are gone and I am throwing a party today... '
+      value: 'Some of them are gone and I am throwing a party today... '
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[3].line
-      value: I really hoped for it to turn out awesome but without my speakers...
+      value: I really hoped for it to turn out awesome, but without my speakers...
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].line
-      value: 'Yea yea yea. And how is it my problem??
-
-        I wasn''t even invited
-        - pfft!'
+      value: Yeah, yeah, yeah. Well, I took it. But I wasn't even invited, so the
+        party would suck anyway!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].line
-      value: "Oh.. \nYou always are so busy with your fame and I thought -"
+      value: Oh... You're so famous and always so busy. I thought-
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].line
-      value: 'Do you see anyone here???
+      value: 'Yeah, and do you see anyone here???
 
         Because I don''t!'
       objectReference: {fileID: 0}
@@ -1521,22 +1533,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].line
-      value: You know.. if you want to come, you're more than welcome to!
+      value: You know... If you want to come, you're more than welcome to!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].line
-      value: 'Why would I ever want to come?
-
-        You will never throw parties
-        as good as mine!'
+      value: Why would I ever want to come? You will never throw parties as good
+        as mine!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].line
-      value: Come on Galosiaa! You worry too much!
+      value: Come on Galosia! You worry too much!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[11].line
-      value: Let me show you how to have fun!
+      value: Let me show you how to have fun and then you can give me my speaker
+        back!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
@@ -1551,12 +1562,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].character.icon
       value: 
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
@@ -1564,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[3].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].character.icon
@@ -1604,7 +1619,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].character.icon
@@ -1612,7 +1627,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].character.name
-      value: Galosia
+      value: Gelosia
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].character.icon
@@ -1620,7 +1635,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[11].character.icon
@@ -1628,7 +1643,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[11].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
