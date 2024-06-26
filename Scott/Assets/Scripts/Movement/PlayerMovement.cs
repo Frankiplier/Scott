@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private bool isGrounded;
     private float originalHeight;
+    private float direction = 0f;
 
     void Start()
     {
@@ -25,6 +26,20 @@ public class PlayerMovement : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        direction = Input.GetAxis("Horizontal");
+
+        // ify na sterowanie postacia lewo-prawo
+        if (direction < 0)  
+        {
+            rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+            transform.localScale = new Vector2(-0.3f, 0.3f);
+        }
+        else if (direction > 0)
+        {
+            rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+            transform.localScale = new Vector2(0.3f, 0.3f);
+        }
 
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
