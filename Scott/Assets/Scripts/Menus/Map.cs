@@ -9,9 +9,35 @@ public class Map : MonoBehaviour
     [SerializeField] GameObject map;
     [SerializeField] Animator transition;
 
+    [SerializeField] JelousContainer jelous;
+    [SerializeField] AngryContainer angry;
+    [SerializeField] SadContainer sad;
+
+    [SerializeField] GameObject jelousHouse;
+    [SerializeField] GameObject angryHouse;
+    [SerializeField] GameObject sadHouse;
+
     public void Start()
     {
         map.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (jelous.jelousDance == true)
+        {
+            jelousHouse.SetActive(false);
+        }
+
+        if (angry.angryDance == true)
+        {
+            angryHouse.SetActive(false);
+        }
+
+        if (sad.sadDance == true)
+        {
+            sadHouse.SetActive(false);
+        }
     }
 
     public void MapOpen()
