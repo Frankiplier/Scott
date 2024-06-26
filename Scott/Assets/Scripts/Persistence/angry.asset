@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4799cfafe1b86cf48bddbfaa9ce842d3, type: 3}
-  m_Name: Speakers
+  m_Script: {fileID: 11500000, guid: 562f4d222acb7304da4304f7977fa7ea, type: 3}
+  m_Name: angry
   m_EditorClassIdentifier: 
-  pickedUpSpeakers: 000000
+  angryDance: 0
