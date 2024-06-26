@@ -2573,8 +2573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505476735253f604f9fed2eabc34d304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Sad House
-  seconds: 22
+  sceneName: Garage
+  seconds: 24
   hasDanced: 0
 --- !u!82 &864407127
 AudioSource:
