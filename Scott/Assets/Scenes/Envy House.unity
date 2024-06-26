@@ -788,6 +788,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.69
       objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: ' aaaaaa'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].character.name
+      value: Gelosia
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
