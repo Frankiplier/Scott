@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject credits;
-    public GameObject backButton;
     [SerializeField] GameObject tutorial;
     bool tutorialEnabled;
+    bool creditsEnabled;
 
     void Start()
     {
         credits.SetActive(false);
-        backButton.SetActive(false);
+        creditsEnabled = false;
 
         tutorial.SetActive(false);
         tutorialEnabled = false;
@@ -26,14 +26,8 @@ public class MainMenu : MonoBehaviour
 
     public void Credits()
     {
-        credits.SetActive(true);
-        backButton.SetActive(true);
-    }
-
-    public void Back()
-    {
-        credits.SetActive(false);
-        backButton.SetActive(false);
+        creditsEnabled ^= true;
+        credits.SetActive(creditsEnabled);
     }
 
     public void Tutorial()
