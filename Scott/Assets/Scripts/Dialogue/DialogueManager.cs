@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
     [SerializeField] Animator transition;
-    [SerializeField] Object scene;
+    public string sceneName;
  
     public Image characterIcon;
     public TextMeshProUGUI characterName;
@@ -79,7 +79,7 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         animator.Play("hide");
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(sceneName);
     }
 }
 

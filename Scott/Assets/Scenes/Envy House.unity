@@ -769,6 +769,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 436518337}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: sceneName
+      value: Envy Battle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 155459103}

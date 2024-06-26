@@ -1078,6 +1078,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1582212209}
     - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: sceneName
+      value: Sad House
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546675715845360569, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 548874878}
