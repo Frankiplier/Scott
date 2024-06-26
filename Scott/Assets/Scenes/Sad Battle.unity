@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Sad House
-  seconds: 24
+  seconds: 22
   hasDanced: 0
 --- !u!82 &864407127
 AudioSource:
