@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &885873853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885873854}
+  - component: {fileID: 885873855}
+  m_Layer: 0
+  m_Name: Persistence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &885873854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885873853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &885873855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885873853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6654305e16eadd4595a9ecca3356a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &913519912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +1928,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4e06ec3f51cf9234988be91d7afadb4d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d0eefa8ce882a6a4db24de2f74692ce2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1982,7 +2026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4906ee649f3bf2f459e0a95ebf843324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartClip: {fileID: 8300000, guid: 4e06ec3f51cf9234988be91d7afadb4d, type: 3}
+  StartClip: {fileID: 8300000, guid: d0eefa8ce882a6a4db24de2f74692ce2, type: 3}
   LoopClip: {fileID: 8300000, guid: 555fc55c879f5454b8687051f6bcc135, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1991,3 +2035,4 @@ SceneRoots:
   - {fileID: 2041800679}
   - {fileID: 1174047614}
   - {fileID: 950664356}
+  - {fileID: 885873854}
