@@ -596,6 +596,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436518333}
+    - target: {fileID: 1559903120111571647, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnvyHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015136209637590245, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436518333}
+    - target: {fileID: 2015136209637590245, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Garage
+      objectReference: {fileID: 0}
     - target: {fileID: 2334234596402789757, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_SizeDelta.x
       value: 403.812
@@ -619,6 +651,26 @@ PrefabInstance:
     - target: {fileID: 2433898032992423244, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436518333}
+    - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SadHouse
       objectReference: {fileID: 0}
     - target: {fileID: 2710976285547980203, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Type
@@ -708,6 +760,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 306.57016
       objectReference: {fileID: 0}
+    - target: {fileID: 6536588943034515227, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6536588943034515227, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6536588943034515227, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6536588943034515227, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436518333}
+    - target: {fileID: 6536588943034515227, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AngerHouse
+      objectReference: {fileID: 0}
     - target: {fileID: 6957346967380460602, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Type
       value: 0
@@ -765,6 +837,17 @@ PrefabInstance:
       addedObject: {fileID: 840714104}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+--- !u!114 &436518333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 436518332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a1803aa2dee1e4c92fcf3bb87d44c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &436518334 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1083921721878164218, guid: 730ba581233789b44bc5335658d592ff, type: 3}
