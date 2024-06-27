@@ -1382,6 +1382,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
   m_PrefabInstance: {fileID: 785193549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &785193551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7886611930125799138, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
+  m_PrefabInstance: {fileID: 785193549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &822997856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,6 +2674,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1567906501}
     - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: mapButton
+      value: 
+      objectReference: {fileID: 785193551}
+    - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: angryHouse
       value: 
       objectReference: {fileID: 1567906503}
@@ -2839,6 +2848,14 @@ PrefabInstance:
     - target: {fileID: 4115547982768796742, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Interactable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120817919729787722, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1567906502}
+    - target: {fileID: 4120817919729787722, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MapClose
       objectReference: {fileID: 0}
     - target: {fileID: 4819195860890895526, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_SizeDelta.x

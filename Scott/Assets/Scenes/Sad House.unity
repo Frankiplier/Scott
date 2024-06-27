@@ -1239,6 +1239,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942249480}
   m_CullTransparentMesh: 1
+--- !u!1 &1138804172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7021271065189267658, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+  m_PrefabInstance: {fileID: 1582212204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1151990877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +1991,10 @@ PrefabInstance:
       propertyPath: sadHouse
       value: 
       objectReference: {fileID: 1582212207}
+    - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: mapButton
+      value: 
+      objectReference: {fileID: 1138804172}
     - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: angryHouse
       value: 

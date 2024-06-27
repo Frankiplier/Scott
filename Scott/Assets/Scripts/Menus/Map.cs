@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Map : MonoBehaviour
 {
     [SerializeField] GameObject map;
+    [SerializeField] GameObject mapButton;
     [SerializeField] Animator transition;
 
     [SerializeField] JelousContainer jelous;
@@ -20,6 +21,7 @@ public class Map : MonoBehaviour
     public void Start()
     {
         map.SetActive(false);
+        mapButton.SetActive(true);
     }
 
     void Update()
@@ -43,11 +45,13 @@ public class Map : MonoBehaviour
     public void MapOpen()
     {
         map.SetActive(true);
+        mapButton.SetActive(false);
     }
 
     public void MapClose()
     {
         map.SetActive(false);
+        mapButton.SetActive(true);
     }
 
     public void Garage()

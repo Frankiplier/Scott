@@ -596,6 +596,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
   m_PrefabInstance: {fileID: 89951971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &89951973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7886611930125799138, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
+  m_PrefabInstance: {fileID: 89951971}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &155459101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1010,6 +1015,10 @@ PrefabInstance:
       propertyPath: sadHouse
       value: 
       objectReference: {fileID: 436518335}
+    - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: mapButton
+      value: 
+      objectReference: {fileID: 89951973}
     - target: {fileID: 591929844485632734, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: angryHouse
       value: 
