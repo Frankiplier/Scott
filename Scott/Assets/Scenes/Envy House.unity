@@ -1995,7 +1995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
-      value: Hi, Gelosia... Have you seen my speakers anywhere?
+      value: Hi, Envie... Have you seen my speakers anywhere?
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].line
@@ -2036,7 +2036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].line
-      value: Come on Galosia! You worry too much!
+      value: Come on Envie! You worry too much!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[11].line
