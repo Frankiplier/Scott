@@ -996,7 +996,7 @@ Transform:
   m_GameObject: {fileID: 785327229}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.04, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.92999995, y: 0.92999995, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2049,7 +2049,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c2f1cb706de14fd47884526dcc55f691, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2572,11 +2572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
-      value: What are you doing here!
+      value: What are you doing here?!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
@@ -2584,16 +2584,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[2].line
-      value: 'Little?!
-
-        Who are you calling little?!
-
-        Furio doesn''t
-        want you in his house!'
+      value: Little?! Who are you calling little?! Furio doesn't want you in his
+        house!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[3].line
-      value: Hey! Wait a second..
+      value: Hey! Wait a second...
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].line
@@ -2601,7 +2597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].line
-      value: You lost your speakers?? HA! What a loser!
+      value: You lost your speakers? HA! What a loser!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].line
@@ -2613,7 +2609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].line
-      value: .. I am throwing a party today and without them it's gonna be a total
+      value: ...I am throwing a party today and without them it's gonna be a total
         failure..
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
@@ -2622,17 +2618,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].line
-      value: 'I took your speaker.
-
-        If I can''t have fun, nobody will!'
+      value: I took your speaker. If I can't have fun, nobody will!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[11].line
-      value: Furio..
+      value: Furio...
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[12].line
-      value: You're only 10 years old..
+      value: You're only 10 years old...
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[13].line
@@ -2645,6 +2639,10 @@ PrefabInstance:
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[15].line
       value: Come on now! Let's shake that negative energy off!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[16].line
+      value: Show me if you have the energy to keep up at my party!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
@@ -2772,6 +2770,14 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[15].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[16].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[16].character.name
       value: Felix
       objectReference: {fileID: 0}
     m_RemovedComponents: []
