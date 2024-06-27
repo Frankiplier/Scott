@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.w
-      value: 86.56603
+      value: 92.767815
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.x
@@ -1453,7 +1453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.y
-      value: 101.16316
+      value: 107.36496
       objectReference: {fileID: 0}
     - target: {fileID: 4660616316741935659, guid: a7307d13b021a2345bb8c24904ee4964, type: 3}
       propertyPath: m_margin.z
@@ -2049,7 +2049,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.name
-      value: Gelosia
+      value: Envie
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
@@ -2081,7 +2081,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].character.name
-      value: Gelosia
+      value: Envie
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].character.icon
@@ -2097,7 +2097,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].character.name
-      value: Gelosia
+      value: Envie
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[7].character.icon
@@ -2105,7 +2105,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[7].character.name
-      value: Gelosia
+      value: Envie
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[8].character.icon
@@ -2121,7 +2121,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fc7c472b1bb297344a1516c653b5cc32, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[9].character.name
-      value: Gelosia
+      value: Envie
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[10].character.icon
