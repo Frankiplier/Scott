@@ -1040,6 +1040,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Garage
       objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -996
+      objectReference: {fileID: 0}
     - target: {fileID: 2334234596402789757, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_SizeDelta.x
       value: 403.812
@@ -1240,6 +1248,14 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 0.8792453
       objectReference: {fileID: 0}
+    - target: {fileID: 8952262635545078216, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952262635545078216, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b32e4e5ccd65f2a42b5dca260a5887f9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5450871342477940584, guid: 730ba581233789b44bc5335658d592ff, type: 3}
