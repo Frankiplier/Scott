@@ -28,32 +28,32 @@ public class EmotionMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (sad.sadDance == true)
+        if (sad.sadDance == true && jelous.jelousDance == false && angry.angryDance == false)
         {
             playFelixSad();
         }
 
-        if (sad.sadDance == true && angry.angryDance == true)
+        if (sad.sadDance == true && angry.angryDance == true && jelous.jelousDance == false)
         {
             playFelixSadAngry();
         }
 
-        if (angry.angryDance == true)
+        if (angry.angryDance == true && sad.sadDance == false && jelous.jelousDance == false)
         {
             playFelixAngry();
         }
 
-        if (jelous.jelousDance == true && angry.angryDance == true)
+        if (jelous.jelousDance == true && angry.angryDance == true && sad.sadDance == false)
         {
             playFelixAngryJelous();
         }
 
-        if (jelous.jelousDance == true)
+        if (jelous.jelousDance == true && angry.angryDance == false && sad.sadDance == false)
         {
             playFelixJelous();
         }
 
-        if (sad.sadDance == true && jelous.jelousDance == true)
+        if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == false)
         {
             playFelixJelousSad();
         }
