@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator animator;
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
@@ -28,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         direction = Input.GetAxis("Horizontal");
+
+        animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
 
         // ify na sterowanie postacia lewo-prawo
         if (direction < 0)  
