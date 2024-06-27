@@ -10,12 +10,14 @@ public class Party : MonoBehaviour
     public GameObject crowd;
     public GameObject ball;
     public GameObject lights;
+    public GameObject gj;
 
     void Start()
     {
         crowd.SetActive(false);
         ball.SetActive(false);
         lights.SetActive(false);
+        gj.SetActive(false);
     }
 
     void Update()
@@ -25,6 +27,7 @@ public class Party : MonoBehaviour
             crowd.SetActive(true);
             ball.SetActive(true);
             lights.SetActive(true);
+            gj.SetActive(true);
         }
     }
 }
