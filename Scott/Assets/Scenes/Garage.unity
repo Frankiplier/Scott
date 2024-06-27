@@ -1241,9 +1241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07a694a1c14f3714aa053c7c002fe2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angry: {fileID: 0}
-  sad: {fileID: 0}
-  jelous: {fileID: 0}
+  angry: {fileID: 11400000, guid: 502dad8cd26f5a9479b3d1c81cdb775b, type: 2}
+  sad: {fileID: 11400000, guid: a7ae037e355f6144ea4f586f5ce5f47c, type: 2}
+  jelous: {fileID: 11400000, guid: 3cd6cd6f365f34b42b99be26ae37301f, type: 2}
   Felix: {fileID: 8300000, guid: 976ec6c7ed4133e46a4ca0ac88aa8caa, type: 3}
   FelixSad: {fileID: 8300000, guid: 854535933bfc0d640b24758ba37bd45a, type: 3}
   FelixSadAngry: {fileID: 8300000, guid: 0ea08cb95ea6c274fb4f0f2f0b777d6c, type: 3}
