@@ -504,11 +504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_LocalPosition.x
@@ -540,11 +540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 88
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -990
+      value: -992.5
       objectReference: {fileID: 0}
     - target: {fileID: 1176571964419344948, guid: 2538ff9415d723349a3e1ac66744b280, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1356,12 +1356,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 88
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -990
+      value: -992.5
       objectReference: {fileID: 0}
     - target: {fileID: 7745233836688865978, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2288,7 +2296,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].character.name
-      value: Me
+      value: Felix
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[6].character.icon

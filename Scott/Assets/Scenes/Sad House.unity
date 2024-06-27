@@ -2153,12 +2153,28 @@ PrefabInstance:
       value: Garage
       objectReference: {fileID: 0}
     - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 88
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2041901812750105628, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -990
+      value: 87.5
       objectReference: {fileID: 0}
     - target: {fileID: 2608209462890476174, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Interactable
@@ -2245,12 +2261,28 @@ PrefabInstance:
       value: AngerHouse
       objectReference: {fileID: 0}
     - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 88
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7146309807018916682, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -990
+      value: 87.5
       objectReference: {fileID: 0}
     - target: {fileID: 8175816957246634595, guid: 730ba581233789b44bc5335658d592ff, type: 3}
       propertyPath: m_Interactable
