@@ -23,8 +23,8 @@ public class Party : MonoBehaviour
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == true)
         {
             crowd.SetActive(true);
-            ball.SetActive(false);
-            lights.SetActive(false);
+            ball.SetActive(true);
+            lights.SetActive(true);
         }
     }
 }
