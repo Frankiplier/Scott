@@ -11,6 +11,7 @@ public class Party : MonoBehaviour
     public GameObject ball;
     public GameObject lights;
     public GameObject gj;
+    public GameObject tuto;
 
     void Start()
     {
@@ -18,10 +19,16 @@ public class Party : MonoBehaviour
         ball.SetActive(false);
         lights.SetActive(false);
         gj.SetActive(false);
+        tuto.SetActive(true);
     }
 
     void Update()
     {
+        if (sad.sadDance == true || jelous.jelousDance == true || angry.angryDance == true)
+        {
+            tuto.SetActive(false);
+        }
+
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == true)
         {
             crowd.SetActive(true);
