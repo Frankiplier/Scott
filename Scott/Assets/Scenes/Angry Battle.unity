@@ -1271,7 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Garage
-  seconds: 29
+  seconds: 28
   hasDanced: 0
 --- !u!82 &692909202
 AudioSource:
