@@ -30,51 +30,93 @@ public class EmotionMusic : MonoBehaviour
     {
         if (sad.sadDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixSad;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixSad();
         }
 
         if (sad.sadDance == true && angry.angryDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixSadAngry;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixSadAngry();
         }
 
         if (angry.angryDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixAngry;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixAngry();
         }
 
         if (jelous.jelousDance == true && angry.angryDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixAngryJelous;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixAngryJelous();
         }
 
         if (jelous.jelousDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixJelous;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixJelous();
         }
 
         if (sad.sadDance == true && jelous.jelousDance == true)
         {
-            GetComponent<AudioSource>().clip = FelixJelousSad;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playFelixJelousSad();
         }
 
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == true)
         {
-            GetComponent<AudioSource>().clip = Party;
-            GetComponent<AudioSource>().Play();
-            GetComponent<AudioSource>().loop = true;
+            playParty();
         }
+    }
+
+    IEnumerator playFelixSad()
+    {
+        GetComponent<AudioSource>().clip = FelixSad;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playFelixSadAngry()
+    {
+        GetComponent<AudioSource>().clip = FelixSadAngry;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playFelixAngry()
+    {
+        GetComponent<AudioSource>().clip = FelixAngry;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playFelixAngryJelous()
+    {
+        GetComponent<AudioSource>().clip = FelixAngryJelous;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playFelixJelous()
+    {
+        GetComponent<AudioSource>().clip = FelixJelous;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playFelixJelousSad()
+    {
+        GetComponent<AudioSource>().clip = FelixJelousSad;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
+    }
+
+    IEnumerator playParty()
+    {
+        GetComponent<AudioSource>().clip = Party;
+        GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().loop = true;
+        yield return new WaitForSeconds(0);
     }
 }
