@@ -2571,12 +2571,80 @@ PrefabInstance:
       value: 4.47
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].line
       value: What are you doing here!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].line
-      value: 'Hi, '
+      value: Hi little Furio!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].line
+      value: 'Little?!
+
+        Who are you calling little?!
+
+        Furio doesn''t
+        want you in his house!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].line
+      value: Hey! Wait a second..
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].line
+      value: My speakers vanished and I was wondering if you've seen them anywhere..
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].line
+      value: You lost your speakers?? HA! What a loser!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].line
+      value: I-
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].line
+      value: NERD.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].line
+      value: .. I am throwing a party today and without them it's gonna be a total
+        failure..
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].line
+      value: And as always Furio was NOT invited. Always "too young".
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].line
+      value: 'I took your speaker.
+
+        If I can''t have fun, nobody will!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].line
+      value: Furio..
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].line
+      value: You're only 10 years old..
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[13].line
+      value: But if you really wanted to come, you could've just asked!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[14].line
+      value: Pfft!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[15].line
+      value: Come on now! Let's shake that negative energy off!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[0].character.icon
@@ -2587,7 +2655,123 @@ PrefabInstance:
       value: Furio
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[1].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[3].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[4].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[5].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[6].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[7].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[8].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[9].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[10].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[11].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[12].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[13].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[13].character.name
+      value: Felix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[14].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 0160d6e31a367c64891b696312b71c89, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[14].character.name
+      value: Furio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[15].character.icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 002e60d27ab7575489f61df25b10a842, type: 3}
+    - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[15].character.name
       value: Felix
       objectReference: {fileID: 0}
     m_RemovedComponents: []
