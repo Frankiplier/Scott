@@ -9,114 +9,67 @@ public class EmotionMusic : MonoBehaviour
     [SerializeField] JelousContainer jelous;
 
 
-    public AudioClip Felix;
-    public AudioClip FelixSad;
-    public AudioClip FelixSadAngry;
-    public AudioClip FelixAngry;
-    public AudioClip FelixAngryJelous;
-    public AudioClip FelixJelous;
-    public AudioClip FelixJelousSad;
-    public AudioClip Party;
+    public AudioSource Felix;
+    public AudioSource FelixSad;
+    public AudioSource FelixSadAngry;
+    public AudioSource FelixAngry;
+    public AudioSource FelixAngryJelous;
+    public AudioSource FelixJelous;
+    public AudioSource FelixJelousSad;
+    public AudioSource Party;
 
     void Start()
     {
-        GetComponent<AudioSource>().clip = Felix;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
+        StartCoroutine(playMusic());
     }
 
-    // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    IEnumerator playMusic()
+    {
+        if (sad.sadDance == false && jelous.jelousDance == false && angry.angryDance == false)
+        {
+            Felix.Play();
+        }
+
         if (sad.sadDance == true && jelous.jelousDance == false && angry.angryDance == false)
         {
-            playFelixSad();
+            FelixSad.Play();
         }
 
         if (sad.sadDance == true && angry.angryDance == true && jelous.jelousDance == false)
         {
-            playFelixSadAngry();
+            FelixSadAngry.Play();
         }
 
         if (angry.angryDance == true && sad.sadDance == false && jelous.jelousDance == false)
         {
-            playFelixAngry();
+            FelixAngry.Play();
         }
 
         if (jelous.jelousDance == true && angry.angryDance == true && sad.sadDance == false)
         {
-            playFelixAngryJelous();
+            FelixAngryJelous.Play();
         }
 
         if (jelous.jelousDance == true && angry.angryDance == false && sad.sadDance == false)
         {
-            playFelixJelous();
+            FelixJelous.Play();
         }
 
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == false)
         {
-            playFelixJelousSad();
+            FelixJelousSad.Play();
         }
 
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == true)
         {
-            playParty();
+            Party.Play();
         }
-    }
 
-    IEnumerator playFelixSad()
-    {
-        GetComponent<AudioSource>().clip = FelixSad;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playFelixSadAngry()
-    {
-        GetComponent<AudioSource>().clip = FelixSadAngry;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playFelixAngry()
-    {
-        GetComponent<AudioSource>().clip = FelixAngry;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playFelixAngryJelous()
-    {
-        GetComponent<AudioSource>().clip = FelixAngryJelous;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playFelixJelous()
-    {
-        GetComponent<AudioSource>().clip = FelixJelous;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playFelixJelousSad()
-    {
-        GetComponent<AudioSource>().clip = FelixJelousSad;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
-        yield return new WaitForSeconds(0);
-    }
-
-    IEnumerator playParty()
-    {
-        GetComponent<AudioSource>().clip = Party;
-        GetComponent<AudioSource>().Play();
-        GetComponent<AudioSource>().loop = true;
         yield return new WaitForSeconds(0);
     }
 }
