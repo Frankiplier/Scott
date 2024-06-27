@@ -2202,8 +2202,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[4].line
-      value: Yeah, yeah, yeah. Well, I took it. But I wasn't even invited, so the
-        party would suck anyway!
+      value: Yeah, yeah, yeah. Well, I took one of them. But I wasn't even invited,
+        so the party would suck anyway!
       objectReference: {fileID: 0}
     - target: {fileID: 8544330002661700451, guid: 279a844372ca33a42bc2e9df8365215c, type: 3}
       propertyPath: dialogue.dialogueLines.Array.data[5].line
