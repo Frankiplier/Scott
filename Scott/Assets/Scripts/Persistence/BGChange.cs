@@ -9,8 +9,8 @@ public class BGChange : MonoBehaviour
     [SerializeField] JelousContainer jelous;
 
     public Sprite day, night;
-
-    void Update()
+    
+    void Start()
     {
         if (sad.sadDance == true && jelous.jelousDance == true && angry.angryDance == true)
         {
