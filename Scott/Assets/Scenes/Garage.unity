@@ -1050,6 +1050,8 @@ GameObject:
   - component: {fileID: 764369836}
   - component: {fileID: 764369835}
   - component: {fileID: 764369834}
+  - component: {fileID: 764369837}
+  - component: {fileID: 764369838}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1131,6 +1133,125 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &764369837
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764369833}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 976ec6c7ed4133e46a4ca0ac88aa8caa, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &764369838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764369833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a694a1c14f3714aa053c7c002fe2a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angry: {fileID: 11400000, guid: 502dad8cd26f5a9479b3d1c81cdb775b, type: 2}
+  sad: {fileID: 11400000, guid: a7ae037e355f6144ea4f586f5ce5f47c, type: 2}
+  jelous: {fileID: 11400000, guid: 3cd6cd6f365f34b42b99be26ae37301f, type: 2}
+  Felix: {fileID: 8300000, guid: 976ec6c7ed4133e46a4ca0ac88aa8caa, type: 3}
+  FelixSad: {fileID: 8300000, guid: 854535933bfc0d640b24758ba37bd45a, type: 3}
+  FelixSadAngry: {fileID: 8300000, guid: 0ea08cb95ea6c274fb4f0f2f0b777d6c, type: 3}
+  FelixAngry: {fileID: 8300000, guid: 208b320e6187ff8408a0b699ee9b86e5, type: 3}
+  FelixAngryJelous: {fileID: 8300000, guid: 4244a65e7949c6a41aec60ad08ee7952, type: 3}
+  FelixJelous: {fileID: 8300000, guid: 6608a4782d4bcb64686913be10b73b9f, type: 3}
+  FelixJelousSad: {fileID: 8300000, guid: fb22e0627f0fb344aa765b74988071f4, type: 3}
+  Party: {fileID: 8300000, guid: 5cc392cee68b52842bc0c3a5feb3e72a, type: 3}
 --- !u!1 &822997856
 GameObject:
   m_ObjectHideFlags: 0
