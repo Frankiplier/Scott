@@ -8,11 +8,13 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenu;
     public static bool isPaused;
     public static bool canPause;
+    public static bool isQuit;
 
     void Start()
     {
         isPaused = false;
         canPause = true;
+        isQuit = false;
         pauseMenu.SetActive(false);
     }
 
@@ -45,6 +47,7 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        SceneManager.LoadSceneAsync(0);
+        isQuit = true;
     }
 }

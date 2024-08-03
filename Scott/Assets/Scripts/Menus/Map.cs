@@ -18,6 +18,11 @@ public class Map : MonoBehaviour
     [SerializeField] GameObject angryHouse;
     [SerializeField] GameObject sadHouse;
 
+    void OnEnable()
+    {
+        transition.Play("Transition Level Start");
+    }
+
     public void Start()
     {
         map.SetActive(false);
@@ -61,7 +66,7 @@ public class Map : MonoBehaviour
 
     public void AngerHouse()
     {
-        StartCoroutine(AngerLevel());
+         StartCoroutine(AngerLevel());
     }
 
     public void EnvyHouse()
@@ -71,38 +76,34 @@ public class Map : MonoBehaviour
 
     public void SadHouse()
     {
-        StartCoroutine(SadLevel());
+         StartCoroutine(SadLevel());
     }
 
     IEnumerator GarageLevel()
     {
         transition.Play("Transition Level End");
+        yield return new WaitForSeconds(0);
         SceneManager.LoadSceneAsync(2);
-        yield return new WaitForSeconds(3);
-        transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator AngerLevel()
     {
         transition.Play("Transition Level End");
+        yield return new WaitForSeconds(0);
         SceneManager.LoadSceneAsync(3);
-        yield return new WaitForSeconds(3);
-        transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator EnvyLevel()
     {
         transition.Play("Transition Level End");
+        yield return new WaitForSeconds(0);
         SceneManager.LoadSceneAsync(4);
-        yield return new WaitForSeconds(3);
-        transition.SetTrigger("Transition Level Start");
     }
 
       IEnumerator SadLevel()
     {
         transition.Play("Transition Level End");
+        yield return new WaitForSeconds(0);
         SceneManager.LoadSceneAsync(5);
-        yield return new WaitForSeconds(3);
-        transition.SetTrigger("Transition Level Start");
     }
 }

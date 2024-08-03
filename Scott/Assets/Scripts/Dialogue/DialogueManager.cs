@@ -7,8 +7,9 @@ using TMPro;
  
 public class DialogueManager : MonoBehaviour
 {
+    public SpeedContainer playerSpeed;
+
     public static DialogueManager Instance;
-    [SerializeField] Animator transition;
     public string sceneName;
  
     public Image characterIcon;
@@ -54,6 +55,8 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
+
+        playerSpeed.speed = 0f;
  
         DialogueLine currentLine = lines.Dequeue();
  
@@ -77,6 +80,8 @@ public class DialogueManager : MonoBehaviour
  
     void EndDialogue()
     {
+        playerSpeed.speed = 5f;
+
         isDialogueActive = false;
         animator.Play("hide");
         SceneManager.LoadScene(sceneName);

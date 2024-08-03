@@ -14,6 +14,8 @@ public class EmptyObject : MonoBehaviour
         jelous.jelousDance = false;
         angry.angryDance = false;
         sad.sadDance = false;
+        
+        PauseMenu.isQuit = false;
     }
 
     void Update()
@@ -32,9 +34,20 @@ public class EmptyObject : MonoBehaviour
         {
             sad.sadDance = true;
         }        
+
+        if (PauseMenu.isQuit == true)
+        {
+            MainMenu();
+        }
     }
 
     private void OnDisable()
+    {
+        Destroy(gameObject);
+        return;
+    }
+
+    public void MainMenu()
     {
         Destroy(gameObject);
         return;

@@ -238,11 +238,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce510e5339c03d4b8ada607a2d163a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSpeed: {fileID: 11400000, guid: 4718388474a474143ae0488d7ea89b40, type: 2}
+  sceneName: Envy Battle
   characterIcon: {fileID: 0}
   characterName: {fileID: 0}
   dialogueArea: {fileID: 0}
   isDialogueActive: 0
-  typingSpeed: 0.2
+  typingSpeed: 0.05
   animator: {fileID: 0}
 --- !u!114 &8544330002661700451
 MonoBehaviour:

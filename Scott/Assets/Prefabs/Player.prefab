@@ -203,7 +203,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a3c023835e22e74ca6a446c14389243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  animator: {fileID: 0}
+  playerSpeed: {fileID: 11400000, guid: 4718388474a474143ae0488d7ea89b40, type: 2}
   jumpForce: 6
   groundCheck: {fileID: 4814998505145797645}
   groundCheckRadius: 0.1

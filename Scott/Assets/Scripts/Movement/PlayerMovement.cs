@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
 
-    public float moveSpeed = 5f;
+    public SpeedContainer playerSpeed;
     public float jumpForce = 10f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         originalHeight = transform.localScale.y;
+
+        playerSpeed.speed = 5f;
     }
 
     void Update()
@@ -36,12 +38,12 @@ public class PlayerMovement : MonoBehaviour
         // ify na sterowanie postacia lewo-prawo
         if (direction < 0)  
         {
-            rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(direction * playerSpeed.speed, rb.velocity.y);
             transform.localScale = new Vector2(-0.3f, 0.3f);
         }
         else if (direction > 0)
         {
-            rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(direction * playerSpeed.speed, rb.velocity.y);
             transform.localScale = new Vector2(0.3f, 0.3f);
         }
 
@@ -55,6 +57,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(movement.x * moveSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(movement.x * playerSpeed.speed, rb.velocity.y);
     }
 }

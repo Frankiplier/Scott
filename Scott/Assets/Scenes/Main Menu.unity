@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 121152073}
   - component: {fileID: 121152072}
   m_Layer: 6
-  m_Name: Credit
+  m_Name: Programming
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 135665679}
   - component: {fileID: 135665678}
   m_Layer: 6
-  m_Name: Credit (2)
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -300,16 +300,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186865808}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1587937891}
+  m_Father: {fileID: 557009149}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: -2}
+  m_AnchoredPosition: {x: -152, y: -4}
   m_SizeDelta: {x: 116.0723, y: 116.0723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186865810
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 556177036}
   - component: {fileID: 556177035}
   m_Layer: 6
-  m_Name: Credit (6)
+  m_Name: Music name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 557009151}
   - component: {fileID: 557009150}
   m_Layer: 5
-  m_Name: WASD name (1)
+  m_Name: E text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -801,6 +801,7 @@ RectTransform:
   m_Children:
   - {fileID: 793552523}
   - {fileID: 1687456991}
+  - {fileID: 186865809}
   m_Father: {fileID: 1587937891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -858,7 +859,7 @@ GameObject:
   - component: {fileID: 593006839}
   - component: {fileID: 593006838}
   m_Layer: 6
-  m_Name: Credit (8)
+  m_Name: Art names
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1068,7 +1069,7 @@ GameObject:
   - component: {fileID: 665969156}
   - component: {fileID: 665969155}
   m_Layer: 6
-  m_Name: Credit (1)
+  m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1144,7 +1145,7 @@ GameObject:
   - component: {fileID: 788770530}
   - component: {fileID: 788770529}
   m_Layer: 5
-  m_Name: WASD name (2)
+  m_Name: Arrows text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1163,6 +1164,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 602251926}
+  - {fileID: 1931400408}
   m_Father: {fileID: 1587937891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1981,16 +1983,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041446179}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1587937891}
+  m_Father: {fileID: 1405543328}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.9999, y: 266.75}
+  m_AnchoredPosition: {x: -28, y: -3.1900635}
   m_SizeDelta: {x: 300, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041446181
@@ -2179,7 +2181,7 @@ GameObject:
   - component: {fileID: 1072753844}
   m_Layer: 5
   m_Name: TutorialButton
-  m_TagString: Untagged
+  m_TagString: TutorialButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2416,6 +2418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   credits: {fileID: 913519912}
   tutorial: {fileID: 1587937890}
+  creditsButton: {fileID: 1183616186}
+  tutorialButton: {fileID: 1072753844}
 --- !u!1 &1183616184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,8 +2433,8 @@ GameObject:
   - component: {fileID: 1183616187}
   - component: {fileID: 1183616186}
   m_Layer: 5
-  m_Name: Credits
-  m_TagString: Untagged
+  m_Name: CreditsButton
+  m_TagString: CreditsButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2452,8 +2456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -668.7398, y: -233}
-  m_SizeDelta: {x: 591.0136, y: 100}
+  m_AnchoredPosition: {x: -659.2697, y: -233}
+  m_SizeDelta: {x: 609.9536, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183616186
 MonoBehaviour:
@@ -2928,8 +2932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -721.84955, y: -379}
-  m_SizeDelta: {x: 480.9297, y: 100}
+  m_AnchoredPosition: {x: -697.7025, y: -379}
+  m_SizeDelta: {x: 529.224, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400933209
 MonoBehaviour:
@@ -3037,7 +3041,7 @@ GameObject:
   - component: {fileID: 1405543330}
   - component: {fileID: 1405543329}
   m_Layer: 5
-  m_Name: WASD name
+  m_Name: WASD text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3056,6 +3060,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 326397780}
+  - {fileID: 1041446180}
   m_Father: {fileID: 1587937891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3134,9 +3139,6 @@ RectTransform:
   - {fileID: 1405543328}
   - {fileID: 557009149}
   - {fileID: 788770528}
-  - {fileID: 1041446180}
-  - {fileID: 186865809}
-  - {fileID: 1931400408}
   - {fileID: 242793828}
   m_Father: {fileID: 1991115829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4029,16 +4031,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931400407}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1587937891}
+  m_Father: {fileID: 788770528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163, y: -309}
+  m_AnchoredPosition: {x: -171, y: -9.0000305}
   m_SizeDelta: {x: 300, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931400409
@@ -4271,7 +4273,7 @@ GameObject:
   - component: {fileID: 2014963989}
   - component: {fileID: 2014963988}
   m_Layer: 6
-  m_Name: Credit (7)
+  m_Name: Programming names
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
